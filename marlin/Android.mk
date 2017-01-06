@@ -254,27 +254,27 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_DEX_PREOPT := false
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.google.android.camera.experimental2016
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_PATH := $(PRODUCT_OUT)/$(TARGET_COPY_OUT_SYSTEM)/framework
-LOCAL_SRC_FILES := proprietary/framework/com.google.android.camera.experimental2016.jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
-LOCAL_DEX_PREOPT := false
-include $(BUILD_PREBUILT)
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := com.google.android.camera.experimental2016
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_PATH := $(PRODUCT_OUT)/$(TARGET_COPY_OUT_SYSTEM)/framework
+#LOCAL_SRC_FILES := proprietary/framework/com.google.android.camera.experimental2016.jar
+#LOCAL_CERTIFICATE := platform
+#LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+#LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+#LOCAL_DEX_PREOPT := false
+#include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.google.android.media.effects
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_PATH := $(PRODUCT_OUT)/$(TARGET_COPY_OUT_SYSTEM)/framework
-LOCAL_SRC_FILES := proprietary/framework/com.google.android.media.effects.jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
-LOCAL_DEX_PREOPT := false
-include $(BUILD_PREBUILT)
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := com.google.android.media.effects
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_PATH := $(PRODUCT_OUT)/$(TARGET_COPY_OUT_SYSTEM)/framework
+#LOCAL_SRC_FILES := proprietary/framework/com.google.android.media.effects.jar
+#LOCAL_CERTIFICATE := platform
+#LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+#LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+#LOCAL_DEX_PREOPT := false
+#include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := VerizonUnifiedSettings
@@ -311,17 +311,17 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_DEX_PREOPT := false
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := ConnMetrics
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_PATH := $(PRODUCT_OUT)/$(TARGET_COPY_OUT_SYSTEM)/priv-app
-LOCAL_SRC_FILES := proprietary/priv-app/ConnMetrics/ConnMetrics.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_CLASS := APPS
-LOCAL_PRIVILEGED_MODULE := true
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_DEX_PREOPT := false
-include $(BUILD_PREBUILT)
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := ConnMetrics
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_PATH := $(PRODUCT_OUT)/$(TARGET_COPY_OUT_SYSTEM)/priv-app
+#LOCAL_SRC_FILES := proprietary/priv-app/ConnMetrics/ConnMetrics.apk
+#LOCAL_CERTIFICATE := platform
+#LOCAL_MODULE_CLASS := APPS
+#LOCAL_PRIVILEGED_MODULE := true
+#LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+#LOCAL_DEX_PREOPT := false
+#include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ConnMO
