@@ -26,10 +26,8 @@ PRODUCT_PACKAGES += \
     NetworkSetting \
     QAS_DVC_MSP \
     QtiTelephonyService \
-    PresencePolling \
     radioconfig \
     RCSBootstraputil \
-    RcsService \
     SecureExtAuthService \
     shutdownlistener \
     SSRestartDetector \
@@ -41,7 +39,6 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt /framework
 PRODUCT_PACKAGES += \
-    com.android.ims.rcsmanager \
     embmslibrary \
     qcrilhook \
     QtiTelephonyServicelibrary \
